@@ -16,7 +16,7 @@ body {
 
 #no {
   display: table;
-  font-size: 180px;
+  font-size: 150px;
   font-weight: 700;
   height: 100%;
   width: 100%;
@@ -37,4 +37,10 @@ body {
 img {
   height: 40px;
 
+}
+
+@media (min-width: 321px) {
+  #no {
+    font-size: 240px;
+  }
 }
