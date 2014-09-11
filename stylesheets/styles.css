@@ -16,14 +16,14 @@ body {
 
 #no {
   display: table;
-  font-size: 150px;
-  font-weight: 700;
   height: 100%;
   width: 100%;
 }
 
 #no strong {
   display: table-cell;
+  font-size: 150px;
+  font-weight: 700;
   vertical-align: middle;
 }
 
