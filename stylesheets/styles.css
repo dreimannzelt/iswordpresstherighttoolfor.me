@@ -7,24 +7,31 @@ body {
 
 body {
   color: #777;
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
   font-weight: 300;
-  font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-#no {
+#full {
   display: table;
   height: 100%;
   width: 100%;
 }
 
-#no strong {
+#no {
   display: table-cell;
+  vertical-align: middle;
+}
+
+#no strong {
+  display: block;
   font-size: 150px;
   font-weight: 700;
-  vertical-align: middle;
+  line-height: .9;
 }
 
 #dmz {
@@ -34,13 +41,12 @@ body {
   right: 0;
 }
 
-img {
+#dmz img {
   height: 40px;
-
 }
 
 @media (min-width: 321px) {
-  #no {
+  #no strong {
     font-size: 240px;
   }
 }
